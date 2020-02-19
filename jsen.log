@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.9)  17 FEB 2020 23:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.9)  19 FEB 2020 18:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -410,84 +410,42 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package color Info: Redefining color nblue on input line 52.
-Package color Info: Redefining color mblue on input line 52.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 52.
+Package color Info: Redefining color nblue on input line 31.
+Package color Info: Redefining color mblue on input line 31.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 31.
  (c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-<jsenga.png, id=1, 377.15906pt x 179.92218pt>
-File: jsenga.png Graphic file (type png)
-<use jsenga.png>
-Package pdftex.def Info: jsenga.png  used on input line 52.
-(pdftex.def)             Requested size: 216.81pt x 103.42699pt.
-Package color Info: Redefining color nblue on input line 52.
-Package color Info: Redefining color mblue on input line 52.
+Package color Info: Redefining color nblue on input line 31.
+Package color Info: Redefining color mblue on input line 31.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 52.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <9> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 52.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <9> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 52.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 31.
+Package color Info: Redefining color nblue on input line 31.
+Package color Info: Redefining color mblue on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
  (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
  (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <7.2> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 52.
-Package color Info: Redefining color nblue on input line 52.
-Package color Info: Redefining color mblue on input line 52.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 52.
-Package color Info: Redefining color nblue on input line 52.
-Package color Info: Redefining color mblue on input line 52.
-File: jsenga.png Graphic file (type png)
-<use jsenga.png>
-Package pdftex.def Info: jsenga.png  used on input line 52.
-(pdftex.def)             Requested size: 216.81pt x 103.42699pt.
-Package color Info: Redefining color nblue on input line 52.
-Package color Info: Redefining color mblue on input line 52.
-Package color Info: Redefining color nblue on input line 52.
-Package color Info: Redefining color mblue on input line 52.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 54.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 31.
+Package color Info: Redefining color nblue on input line 31.
+Package color Info: Redefining color mblue on input line 31.
+Package color Info: Redefining color nblue on input line 31.
+Package color Info: Redefining color mblue on input line 31.
+Package color Info: Redefining color nblue on input line 31.
+Package color Info: Redefining color mblue on input line 31.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 33.
  (c:/texlive/2019/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
-Underfull \hbox (badness 8019) in paragraph at lines 56--65
-\OT1/ptm/m/n/10 Web site at $[]$
- []
-
-
-Underfull \hbox (badness 6445) in paragraph at lines 56--65
-\OT1/ptm/m/n/10 so you can use it to pre-pare your manuscript. If
- []
-
-
-Underfull \hbox (badness 7851) in paragraph at lines 56--65
-\OT1/ptm/m/n/10 you would pre-fer to use La-TeX, down-load IEEE's
- []
-
-
-Underfull \hbox (badness 6300) in paragraph at lines 56--65
-\OT1/ptm/m/n/10 La-TeX style and sam-ple files from the same Web
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--65
-[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--65
-[]$
- []
-
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 73.
 Package epstopdf Info: Source file: <LOGO-jsen-web.eps>
 (epstopdf)                    date: 2019-12-25 20:37:30
 (epstopdf)                    size: 35523 bytes
@@ -495,15 +453,15 @@ Package epstopdf Info: Source file: <LOGO-jsen-web.eps>
 (epstopdf)                    date: 2019-12-25 20:37:46
 (epstopdf)                    size: 3842 bytes
 (epstopdf)             Command: <repstopdf --outfile=LOGO-jsen-web-eps-converted-to.pdf LOGO-jsen-web.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/LOGO-jsen-web-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<LOGO-jsen-web-eps-converted-to.pdf, id=2, 241.90375pt x 61.22874pt>
+<LOGO-jsen-web-eps-converted-to.pdf, id=1, 241.90375pt x 61.22874pt>
 File: LOGO-jsen-web-eps-converted-to.pdf Graphic file (type pdf)
 <use LOGO-jsen-web-eps-converted-to.pdf>
-Package pdftex.def Info: LOGO-jsen-web-eps-converted-to.pdf  used on input line 108.
+Package pdftex.def Info: LOGO-jsen-web-eps-converted-to.pdf  used on input line 45.
 (pdftex.def)             Requested size: 85.79993pt x 21.7172pt.
 
 Overfull \hbox (221.20007pt too wide) has occurred while \output is active
@@ -526,197 +484,21 @@ Overfull \vbox (16.09671pt too high) has occurred while \output is active []
  [1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/LOGO-jsen-web-eps-converted-to.pdf> <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsenga.png>]
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 127.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 129.
- (c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 171.
- (c:/texlive/2019/texmf-dist/tex/latex/psnfss/omspcr.fd
-File: omspcr.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 171.
-LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <9> not available
-(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 172.
 
-Overfull \hbox (8.91965pt too wide) in paragraph at lines 168--175
- []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 168--175
-
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 181.
-(c:/texlive/2019/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-<fig1.png, id=20, 377.15906pt x 179.92218pt>
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 210.
-(pdftex.def)             Requested size: 252.0pt x 120.21504pt.
-
-Overfull \vbox (5.0pt too high) has occurred while \output is active []
-
- [2
-
-pdfTeX warning: pdflatex.exe: pop empty color page stack 0
-
-
-pdfTeX warning: pdflatex.exe: pop empty color page stack 0
-
-
-pdfTeX warning: pdflatex.exe: pop empty color page stack 0
-
-
-pdfTeX warning: pdflatex.exe: pop empty color page stack 0
-
-
-pdfTeX warning: pdflatex.exe: pop empty color page stack 0
- <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/fig1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
-[]\OT1/ptm/m/n/10 A gen-eral IEEE styleguide is avail-able at
- []
-
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 240.
-\width=\dimen129
-
-Underfull \hbox (badness 2591) in paragraph at lines 285--286
-[]\OT1/ptm/m/n/8 1 erg/(G$\OMS/cmsy/m/n/8 ^^A$\OT1/ptm/m/n/8 g) $\OT1/cmr/m/n/8 =$ \OT1/ptm/m/n/8 1 emu/g $\OMS/cmsy/m/n/8 !$ \OT1/ptm/m/n/8 1
- []
-
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 259--319
-[][]
- []
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 368--373
-\OT1/ptm/m/n/10 (red/green/blue) and CMYK (cyan/magenta/yellow/black).
- []
-
-
-Underfull \hbox (badness 2469) in paragraph at lines 374--379
-\OT1/ptm/m/n/10 color space. Grayscale im-ages should be sub-mit-ted in
- []
-
-
-Overfull \vbox (5.0pt too high) has occurred while \output is active []
-
- [3]
-Overfull \vbox (5.0pt too high) has occurred while \output is active []
-
- [4]
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 558.
- (c:/texlive/2019/texmf-dist/tex/latex/psnfss/ts1phv.fd
-File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
-)
-LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <10> not available
-(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 558.
-
-Underfull \hbox (badness 10000) in paragraph at lines 559--567
-[]\OT1/ptm/m/n/10 Contributions to the Trans-ac-tions, Jour-nals, and
- []
-
-
-Underfull \hbox (badness 1796) in paragraph at lines 559--567
-\OT1/ptm/m/n/10 Let-ters may be sub-mit-ted elec-tron-i-cally on IEEE's on-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 559--567
-\OT1/ptm/m/n/10 line manuscript sub-mis-sion and peer-review sys-tem,
- []
-
-
-Underfull \hbox (badness 5832) in paragraph at lines 559--567
-\OT1/ptm/m/n/10 Schol-arOne\TS1/ptm/m/n/10 ® \OT1/ptm/m/n/10 Manuscripts. You can get a list-ing of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 559--567
-\OT1/ptm/m/n/10 the pub-li-ca-tions that par-tic-i-pate in Schol-arOne at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 559--567
-[]$
- []
-
-
-Overfull \vbox (5.0pt too high) has occurred while \output is active []
-
- [5]
-Overfull \vbox (5.0pt too high) has occurred while \output is active []
-
- [6]
-Underfull \hbox (badness 1817) in paragraph at lines 685--688
-\OT1/ptm/m/n/10 J.K. Au-thor. (year, month). Ti-tle. pre-sented at ab-
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 698--701
-\OT1/ptm/m/n/10 day). Patent Num-ber [Type of medium]. Avail-able:
- []
-
-
-Underfull \hbox (badness 2680) in paragraph at lines 722--723
-[]\OT1/ptm/m/n/10 J. K. Au-thor, pri-vate com-mu-ni-ca-tion, Ab-brev.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 773--776
-\OT1/ptm/m/n/8 Avail-able: $[]$.
- []
-
-
-Underfull \hbox (badness 4254) in paragraph at lines 788--792
-\OT1/ptm/m/n/8 nolo-gies de-ployed be-hind the fire-wall for cor-po-rate pro-duc-tiv-
- []
-
-
-Underfull \hbox (badness 3386) in paragraph at lines 788--792
-\OT1/ptm/m/n/8 ity. Pre-sented at INET96 An-nual Meet-ing. [On-line]. Avail-able:
- []
-
-
-Underfull \hbox (badness 4673) in paragraph at lines 795--798
-[]\OT1/ptm/m/n/8 Teralyzer. Lytera UG, Kirch-hain, Ger-many [On-line]. Avail-able:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 795--798
-[]$\OT1/ptm/m/n/8 ,
- []
-
-
-Overfull \vbox (5.0pt too high) has occurred while \output is active []
-
- [7]
-Overfull \vbox (5.0pt too high) has occurred while \output is active []
-
- [8
-
-] (c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux) ) 
+ <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/LOGO-jsen-web-eps-converted-to.pdf>] (c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux) ) 
 Here is how much of TeX's memory you used:
- 4081 strings out of 492164
- 55894 string characters out of 6129088
- 133618 words of memory out of 5000000
- 8353 multiletter control sequences out of 15000+600000
- 82871 words of font info for 141 fonts, out of 8000000 for 9000
+ 3885 strings out of 492164
+ 53595 string characters out of 6129088
+ 114442 words of memory out of 5000000
+ 8192 multiletter control sequences out of 15000+600000
+ 58539 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,19n,31p,770b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.pdf" (8 pages, 412999 bytes).
+ 30i,19n,31p,770b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.pdf" (1 page, 52459 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 37 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
