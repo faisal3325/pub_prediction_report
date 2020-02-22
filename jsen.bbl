@@ -46,4 +46,22 @@ A.~{McAloon}. Now out of early access, battlegrounds crosses 30m players.
   [Online]. Available: \url{https://bit.ly/2PbIlps}
 \BIBentrySTDinterwordspacing
 
+\bibitem{noauthor_pubg_nodate}
+\BIBentryALTinterwordspacing
+{PUBG} finish placement prediction (kernels only). [Online]. Available:
+  \url{https://kaggle.com/c/pubg-finish-placement-prediction}
+\BIBentrySTDinterwordspacing
+
+\bibitem{noauthor_kaggle_nodate}
+\BIBentryALTinterwordspacing
+Kaggle: Your home for data science. [Online]. Available:
+  \url{https://www.kaggle.com/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{khan_faisal3325/pubg_prediction_2020}
+\BIBentryALTinterwordspacing
+P.~F. Khan, ``Faisal3325/pubg\_prediction.'' [Online]. Available:
+  \url{https://github.com/faisal3325/pubg_prediction}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

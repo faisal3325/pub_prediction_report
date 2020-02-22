@@ -180,9 +180,11 @@ INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux
 INPUT c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
