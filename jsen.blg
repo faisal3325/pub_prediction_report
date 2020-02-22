@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: jsen.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: bib.bib
+Warning--entry type for "noauthor_battle_2019" isn't style-file defined
+--line 165 of file bib.bib
+Warning--entry type for "fukasaku_battle_2000" isn't style-file defined
+--line 213 of file bib.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 4 entries,
+            4087 wiz_defined-function locations,
+            839 strings with 7813 characters,
+and the built_in function-call counts, 1374 in all, are:
+= -- 89
+> -- 10
+< -- 0
++ -- 6
+- -- 2
+* -- 56
+:= -- 255
+add.period$ -- 7
+call.type$ -- 4
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 112
+empty$ -- 135
+format.name$ -- 2
+if$ -- 282
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 28
+newline$ -- 43
+num.names$ -- 2
+pop$ -- 96
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 94
+stack$ -- 0
+substring$ -- 6
+swap$ -- 54
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 4
+warning$ -- 0
+while$ -- 2
+width$ -- 5
+write$ -- 58
+(There were 2 warnings)

@@ -95,6 +95,8 @@ INPUT c:/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
 INPUT c:/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
 INPUT c:/texlive/2019/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/url/url.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/url/url.sty
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux
 OUTPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux
@@ -114,46 +116,31 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvbo7t.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss9.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
 INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/t1phv.fd
@@ -162,6 +149,8 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvrc8t.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.bbl
+INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.bbl
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/LOGO-jsen-web.eps
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/LOGO-jsen-web.eps
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/LOGO-jsen-web.eps
@@ -193,8 +182,6 @@ INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux
 INPUT c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc
@@ -203,4 +190,3 @@ INPUT c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
-INPUT c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
