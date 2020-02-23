@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.9)  23 FEB 2020 04:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.9)  23 FEB 2020 05:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -513,15 +513,16 @@ Overfull \vbox (16.09671pt too high) has occurred while \output is active []
 
 
  <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/LOGO-jsen-web-eps-converted-to.pdf>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 62.
-
 <images/flow.pdf, id=15, 529.01637pt x 233.9139pt>
 File: images/flow.pdf Graphic file (type pdf)
 <use images/flow.pdf>
 Package pdftex.def Info: images/flow.pdf  used on input line 63.
-(pdftex.def)             Requested size: 516.0pt x 228.16327pt.
+(pdftex.def)             Requested size: 256.0748pt x 113.23036pt.
+
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 63--64
+[][] 
+ []
+
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 72.
 
@@ -536,39 +537,40 @@ Overfull \hbox (3.81438pt too wide) in paragraph at lines 102--112
  []
 
 (c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.bbl
+Overfull \vbox (5.0pt too high) has occurred while \output is active []
+
+ [2
+
+pdfTeX warning: pdflatex.exe: pop empty color page stack 0
+
+
+pdfTeX warning: pdflatex.exe: pop empty color page stack 0
+ <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/flow.pdf
+
+pdfTeX warning: pdflatex.exe (file c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/flow.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 69.
  (c:/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
-
-Overfull \vbox (5.0pt too high) has occurred while \output is active []
-
- [2])
+)
 Overfull \vbox (5.0pt too high) has occurred while \output is active []
 
  [3
 
-pdfTeX warning: pdflatex.exe: pop empty color page stack 0
-
-
-pdfTeX warning: pdflatex.exe: pop empty color page stack 0
-
- <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/flow.pdf
-
-pdfTeX warning: pdflatex.exe (file c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/flow.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] (c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux) ) 
+] (c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux) ) 
 Here is how much of TeX's memory you used:
  4109 strings out of 492164
  57136 string characters out of 6129088
- 127161 words of memory out of 5000000
+ 125161 words of memory out of 5000000
  8399 multiletter control sequences out of 15000+600000
  64434 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,19n,31p,1645b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,19n,31p,1645b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.pdf" (3 pages, 146237 bytes).
+Output written on "c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.pdf" (3 pages, 146341 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream
