@@ -178,6 +178,27 @@ for col in cols:
         col, pubg[col].cast(FloatType()))
 \end{lstlisting}
 
+The algorithms applied on the data are AdaBoost, Gradient Boost, Random Forest and Decision Tree. $learning_rate$ has been choosen 80\% for AdaBoost and Gradient Boost while $n\_estimators$ is 10 for Random Forest. The code is shown below for the algorithms applied:
+
+\begin{lstlisting}
+ada = AdaBoostRegressor(learning_rate=0.8)
+ada.fit(X_train,y_train)
+calculate_error(ada,"Adaboost")
+
+GradientBoostingRegressor(learning_rate=0.8)
+GBR.fit(X_train,y_train)
+calculate_error(GBR,"GBR")
+
+RandomForestRegressor(n_estimators=10)
+forest.fit(X_train,y_train)
+calculate_error(forest,"forest")
+
+tree = DecisionTreeRegressor()
+tree.fit(X_train,y_train)
+calculate_error(tree,"tree")
+\end{lstlisting}
+
+
 \section{Experimentation Results and Discussions}
 \label{sec:discussion}
 
