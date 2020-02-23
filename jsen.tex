@@ -48,11 +48,11 @@
 
 \IEEEtitleabstractindextext{
 \begin{abstract}
-In this technical report we have implemented a big data analytics framework on a PlayerUnknown’s Battlegrounds (PUBG) dataset. We analysed a few points using the dataset and answered our research questions where we focused on the performance of players. Our research questions debunked wether playing solo or playing in a team is more better for performance and gaining points and perks in the game. Using 29 features, we engineered a couple more features to make our analytics stronger. We also performed a few prediction algorithms on the dataset to predict win place percentile of players. We then compared these algorithms and came to the conclusion of which is the best performing algorithm. Our framework is implemented on Apache Spark using Google Cloud Platform. We used BigQuery and Cloud Dataproc to implement the system. 
+In this technical report we have implemented a big data analytics framework on a PlayerUnknown’s Battlegrounds (PUBG) dataset from Kaggle. We analysed a few points using the dataset and answered our research questions where we focused on the performance of players. Our research questions debunked wether playing solo or playing in a team is more better for performance and gaining points and perks in the game. Using 29 features, we engineered a couple more features to make our analytics stronger. We also performed a few prediction algorithms on the dataset to predict win place percentile of players. We then compared these algorithms and came to the conclusion of which is the best performing algorithm. Our framework is implemented on Apache Spark using Google Cloud Platform. We used BigQuery and Cloud Dataproc to implement the system. The source code of this report is hosted on Github and open sourced
 \end{abstract}
 
 \begin{IEEEkeywords}
-PlayerUnknown’s Battlegrounds, PUBG, Apache Spark, PySpark, Google Cloud Platform, Ensemble Learning, AdaBoost, Decision Tree, Random Forest, Gradient Boost
+PlayerUnknown’s Battlegrounds, PUBG, Apache Spark, PySpark, Google Cloud Platform, Ensemble Learning, AdaBoost, Decision Tree, Random Forest, Gradient Boost, Kaggle, Competition, Machine Learning, Supervised Learning
 \end{IEEEkeywords}}
 
 \maketitle
@@ -75,7 +75,7 @@ This technical report is going to explore a publicly available dataset~\cite{noa
 \end{enumerate}
 All these computations will be performed on distributed computing framework due to large size of the data.
 
-\textbf{Organization of the report} is formatted in the following way. The paper will start with a brief overview of the program paradigm in Section \textbf{\ref{sec:system_overivew}}. Later on, the algorithms used for prediction will be covered in Section \textbf{\ref{sec:algorithms}}. The implementation plan which describes the data pre-processing stage as well as model creation will be discussed in Section \textbf{\ref{sec:implementation}}. Section \textbf{\ref{sec:discussion}} will discuss the observations of the analysis answering the questions mentioned earlier. This section will also compare the used algorithms. The paper will finally conclude with the observations from this report in Section \textbf{\ref{sec:conclusion}}.
+\textbf{Organization of the report} is formatted in the following way. The paper will start with a brief overview of the program paradigm in Section \textbf{\ref{sec:system_overivew}}. Later on, the algorithms used for prediction will be covered in Section \textbf{\ref{sec:algorithms}}. The implementation plan which describes the data pre-processing stage as well as model creation will be discussed in Section \textbf{\ref{sec:implementation}}. Section \textbf{\ref{sec:discussion}} will discuss the observations of the analysis answering the questions mentioned earlier. This section will also compare the used algorithms. The paper will conclude with the observations from this report in Section \textbf{\ref{sec:conclusion}}. Finally the paper will provide scope of future work in the last section \textbf{\ref{sec:future}}
 
 \section{System Overview}
 \label{sec:system_overivew}
@@ -362,6 +362,10 @@ We can see that gradient boosting regressor has the highest performance that is 
 \section{Conclusion}
 \label{sec:conclusion}
 In this report we implemented a big data analytic framework on a distributed computing framework. The framework selected for this report is Apache Spark. Using a combination of different services from Google Cloud, we implemented the program to work on clusters. We answered our research questions wherein we discovered that playing solo in PUBG is more better than playing in a team. From our analytics we have come to this conclusion. We also predicted $winPlacePerc$ using a few ensemble learning algorithms like AdaBoost, gradient boost and random forest. We also applied decision tree regressor on the data which performed very bad with just 81.58\% accuracy while our top performing algorithms achieved an accuracy of 94.86\%. 
+
+\section{Future Work}
+\label{sec:future}
+Further, the prediction will be performed later using a deep learning framework. Moreover, more data analysis can be performed to get a better idea how to be a top player in PUBG. An automated pipeline for creating a cluster, submitting a job to Cloud Dataproc and then deleting the clusters can be made using CI/CD technologies.
 
 \bibliographystyle{IEEEtran}
 \bibliography{bib}

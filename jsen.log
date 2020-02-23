@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.9)  23 FEB 2020 21:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.9)  23 FEB 2020 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1078,7 +1078,7 @@ Package xcolor Warning: Incompatible color definition on input line 111.
 Package xcolor Warning: Incompatible color definition on input line 116.
 
 
-Package xcolor Warning: Incompatible color definition on input line 121.
+Package xcolor Warning: Incompatible color definition on input line 120.
 
 
 Overfull \vbox (5.0pt too high) has occurred while \output is active []
@@ -1174,7 +1174,7 @@ Overfull \hbox (5.59973pt too wide) in paragraph at lines 209--210
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 215.
+Package xcolor Warning: Incompatible color definition on input line 213.
 
 
 Overfull \vbox (5.0pt too high) has occurred while \output is active []
@@ -1221,9 +1221,16 @@ Package xcolor Warning: Incompatible color definition on input line 302.
 Package xcolor Warning: Incompatible color definition on input line 306.
 
 
+Package xcolor Warning: Incompatible color definition on input line 310.
+
+
+Overfull \vbox (5.0pt too high) has occurred while \output is active []
+
+ [4 <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/cluster_1.png>]
+
 Package xcolor Warning: Incompatible color definition on input line 311.
 
-<images/match_type_vs_kills.png, id=62, 445.06274pt x 307.1475pt>
+<images/match_type_vs_kills.png, id=66, 445.06274pt x 307.1475pt>
 File: images/match_type_vs_kills.png Graphic file (type png)
 <use images/match_type_vs_kills.png>
 Package pdftex.def Info: images/match_type_vs_kills.png  used on input line 315.
@@ -1240,22 +1247,11 @@ Package xcolor Warning: Incompatible color definition on input line 316.
 Package xcolor Warning: Incompatible color definition on input line 316.
 
 
-Package xcolor Warning: Incompatible color definition on input line 318.
-
-
-Overfull \vbox (5.0pt too high) has occurred while \output is active []
-
- [4 <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/cluster_1.png>]
-
 Package xcolor Warning: Incompatible color definition on input line 322.
 
 \width=\dimen293
 
 Package xcolor Warning: Incompatible color definition on input line 326.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 Package xcolor Warning: Incompatible color definition on input line 341.
@@ -1272,6 +1268,9 @@ Overfull \hbox (3.81438pt too wide) in paragraph at lines 348--358
 
 Package xcolor Warning: Incompatible color definition on input line 362.
 
+
+Package xcolor Warning: Incompatible color definition on input line 366.
+
 (c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.bbl
 
 Package xcolor Warning: Incompatible color definition on input line 2.
@@ -1282,9 +1281,9 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
-)
 
-Package xcolor Warning: Incompatible color definition on input line 369.
+
+Package xcolor Warning: Incompatible color definition on input line 84.
 
 
 Overfull \vbox (5.0pt too high) has occurred while \output is active []
@@ -1298,24 +1297,33 @@ pdfTeX warning: pdflatex.exe: pop empty color page stack 0
 
 
 pdfTeX warning: pdflatex.exe: pop empty color page stack 0
- <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/match_type_vs_kills.png>] (c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux) )
+ <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/match_type_vs_kills.png>])
+
+Package xcolor Warning: Incompatible color definition on input line 373.
+
+
+Overfull \vbox (5.0pt too high) has occurred while \output is active []
+
+ [6
+
+] (c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux) )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 309 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 37652 strings out of 492164
- 813407 string characters out of 6129088
- 1031224 words of memory out of 5000000
- 41583 multiletter control sequences out of 15000+600000
+ 37653 strings out of 492164
+ 813419 string characters out of 6129088
+ 1033224 words of memory out of 5000000
+ 41584 multiletter control sequences out of 15000+600000
  600611 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  137i,19n,178p,1724b,1939s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.pdf" (5 pages, 347215 bytes).
+Output written on "c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.pdf" (6 pages, 348403 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 129 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
