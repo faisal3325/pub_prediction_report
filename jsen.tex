@@ -39,6 +39,8 @@ The game's most popular mode, classic mode, allows up to 100 players to parachut
 
 This technical report is going to explore a publicly available dataset~\cite{noauthor_pubg_nodate} of the popular game. At the time of writing this report, the dataset is hosted on a popular online community for data scientists and machine learning practitioners, Kaggle~\cite{noauthor_kaggle_nodate}. The code for this report has been open-sourced and hosted on Github~\cite{khan_faisal3325/pubg_prediction_2020}.
 
+\textbf{The data} is taken from Kaggle's competition on "PUBG Finish Placement Prediction"~\cite{noauthor_pubg_nodate}. It contains data of 65,000 matches where each row defines a player's stats after they finish their game. The training set has 4,446,966 rows while the testing set has 1,934,174 rows and 29 variables. The data is complete, but it requires some pre-processing for converting categorical variables to numerical.
+
 \textbf{The primary goal of this technical report} is predicting percentile of a player's finishing position where 0 denotes last position and 1 stands for 1st position in a match. The report has also answered the following questions with visualizations based on analysis of the data:
 \begin{enumerate}
     \item Average time a player spends in a match.
