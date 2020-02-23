@@ -7,6 +7,8 @@
 \usepackage{textcomp}
 \usepackage{wrapfig}
 \usepackage{url}
+
+\graphicspath{ {./images/} }
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \markboth{Spring 2020}
@@ -49,6 +51,15 @@ All these computations will be performed on distributed computing framework due 
 
 \section{System Overview}
 \label{sec:system_overivew}
+To run the algorithms, Apache Spark has been selected as the proposed solution which swiftly handles large datasets and computes parallely. Apache Sparks is used for performing large-scale data analytics using technologies used in modern data centers on the production level. Apache Spark will be implemented on a cloud solution. Google Cloud Platform (GCP) has been selected as the cloud service provider. Under GCP, the project will be implemented using Cloud DataProc~\cite{noauthor_dataproc_nodate}, BigQuery~\cite{noauthor_bigquery_nodate} and Apache Spark's Machine Learning Library~\cite{noauthor_mllib_nodate}. With the combination of these services, we will be making out our analytics and prediction. Cloud DataProc is described on the GCP website as " a fast, easy-to-use, fully managed cloud service for running Apache Spark and Apache Hadoop clusters in a simpler, more cost-efficient way"~\cite{noauthor_dataproc_nodate}. They have claimed that using their service, it has proven to reduce time consumption on operations which took hours or days on a traditional system to seconds or minutes~\cite{noauthor_dataproc_nodate}. BigQuery will be used in our project to store our datasets which provides a serverless and highly-scalable data warehousing solution. For implementing our model, we will be using Apache Spark's Machine Learning Library. The library is available in Java, Scala, and Python, we are interested to implement our model in Python. 
+
+We will be creating jobs using Apache Spark ML library and running them on our DataProc clusters. The Figure \ref{fig:1} shown below describes our expected workflow:
+
+\begin{figure}[h]
+  \includegraphics[width=\textwidth]{images/flow.pdf}
+  \caption{Workflow of the analytics operation.}
+  \label{fig:1}
+\end{figure}
 
 \section{Algorithms}
 \label{sec:algorithms}
