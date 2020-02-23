@@ -7,6 +7,8 @@
 \usepackage{textcomp}
 \usepackage{wrapfig}
 \usepackage{url}
+\usepackage{multirow}
+\usepackage{booktabs}
 
 \graphicspath{ {./images/} }
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
@@ -85,11 +87,29 @@ In the random forest algorithm based on bagging, all its trees run independetly 
 \subsection{Decision Tree Regressor}
 Decision tree is a predictive modelling algorithm which with the help of a collection of binary rules predict an output. These rules are formed by a QnA by the algorithm on the data to narrow down to the problem until it reaches a final conclusion. It can be used for both classification and regression problems. But this algorithm is not suitable for continuous variables and is also prone to over fitting.
 
+In this report, we will be using the above mentioned algorithms to perform our primary goal of predicting win placement percentile of players. These algorithms will be compared on the basis of their accuracy.
+
 \section{Implementation}
 \label{sec:implementation}
 
 \section{Experimentation Results and Discussions}
 \label{sec:discussion}
+
+\begin{table}[!ht]
+    \caption{Performance of different algorithms run on the same dataset}
+    \label{tab:summary}
+	\centering
+    \begin{tabular}{l l l}
+    \toprule
+    \multirow{1}{*}{Algorithm} & \multirow{1}{*}{Category} & \multirow{1}{*}{Accuracy} \\ 
+    && \\ \midrule
+    AdaBoost Regressor & Ensemble Learning Boosting & 91.71\% \\ \midrule
+    Gradient Boosting Regressor & Ensemble Learning Boosting & 94.86\% \\ \midrule
+    Random Forest Regressor & Ensemble Learning Boosting & 93.97\% \\ \midrule
+    Decision Tree Regressor & - & 81.58\% \\
+    \bottomrule
+    \end{tabular}
+\end{table}
 
 \section{Conclusion}
 \label{sec:conclusion}
