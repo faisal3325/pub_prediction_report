@@ -29,7 +29,7 @@
 
 \bibitem{noauthor_battle_2019}
 \BIBentryALTinterwordspacing
-``Battle royale game,'' page Version {ID}: 930356754. [Online]. Available:
+Battle royale game. Page Version {ID}: 930356754. [Online]. Available:
   \url{https://en.wikipedia.org/w/index.php?title=Battle_royale_game&oldid=930356754}
 \BIBentrySTDinterwordspacing
 
@@ -84,18 +84,19 @@ Dataproc - cloud-native apache hadoop \& apache spark {\textbar} cloud
 
 \bibitem{schapire_boosting_2012}
 R.~E. Schapire and Y.~Freund, \emph{Boosting: {{Foundations}} and
-  {{Algorithms}}}.\hskip 1em plus 0.5em minus 0.4em\relax {MIT Press}.
+  {{Algorithms}}}.\hskip 1em plus 0.5em minus 0.4em\relax {MIT Press}, 2012.
 
 \bibitem{friedman_greedy_2001}
 \BIBentryALTinterwordspacing
 J.~H. Friedman, ``Greedy function approximation: {{A}} gradient boosting
-  machine.'' vol.~29, no.~5, pp. 1189--1232. [Online]. Available:
+  machine.'' \emph{The Annals of Statistics}, vol.~29, no.~5, pp. 1189--1232,
+  2001. [Online]. Available:
   \url{https://projecteuclid.org/euclid.aos/1013203451}
 \BIBentrySTDinterwordspacing
 
 \bibitem{tin_kam_ho_random_1995}
 T.~K. Ho, ``Random decision forests,'' in \emph{Proceedings of 3rd
   {{International Conference}} on {{Document Analysis}} and {{Recognition}}},
-  vol.~1, pp. 278--282 vol.1.
+  vol.~1, 1995, pp. 278--282 vol.1.
 
 \end{thebibliography}
