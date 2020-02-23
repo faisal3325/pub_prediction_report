@@ -11,6 +11,7 @@
 \usepackage{booktabs}
 \usepackage{listings }
 \usepackage{color}
+\usepackage{forest}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -51,7 +52,7 @@ In this technical report we have implemented a big data analytics framework on a
 \end{abstract}
 
 \begin{IEEEkeywords}
-
+PlayerUnknown’s Battlegrounds, PUBG, Apache Spark, PySpark, Google Cloud Platform, Ensemble Learning, AdaBoost, Decision Tree, Random Forest, Gradient Boost
 \end{IEEEkeywords}}
 
 \maketitle
@@ -258,6 +259,46 @@ The parameters we used for creating clusters are:
 
 \subsection{Visualizing the output}
 Some of the visualizations have been directly done on Jupyter notebook but most of the visualizations have been done on Google Data Studio which gives a connector to BigQuery and gives flexibility for visualizing large volumes of data.
+
+\section{Software Package}
+The source code is open-sourced and hosted on the author's Github profile~\cite{khan_faisal3325/pubg_prediction_2020}. The data for this project is hosted on BigQuery in the author's account. The data can also be accessed from Kaggle's PUBG competition page~\cite{noauthor_pubg_nodate}.
+
+The code repository contains the following files:
+\begin{forest}
+    for tree={
+      font=\ttfamily,
+      grow'=0,
+      child anchor=west,
+      parent anchor=south,
+      anchor=west,
+      calign=first,
+      edge path={
+        \noexpand\path [draw, \forestoption{edge}]
+        (!u.south west) +(7.5pt,0) |- node[fill,inner sep=1.25pt] {} (.child anchor)\forestoption{edge label};
+      },
+      before typesetting nodes={
+        if n=1
+          {insert before={[,phantom]}}
+          {}
+      },
+      fit=band,
+      before computing xy={l=15pt},
+    }
+  [project
+    [jobs
+      [\_analysis.ipynb]
+    ]
+    [preprocessing
+        [ml.ipynb]
+        [pre-processing.ipynb]
+    ]
+    [trails
+        [analysis.ipynb]
+        [regression.ipynb]
+    ]
+  ]
+\end{forest}
+
 
 \section{Experimentation Results and Discussions}
 \label{sec:discussion}
