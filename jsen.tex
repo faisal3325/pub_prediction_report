@@ -61,7 +61,7 @@ We will be creating jobs using Apache Spark ML library and running them on our D
 
 \begin{figure}[h]
   \includegraphics[width=9cm]{images/flow.pdf}
-  \caption{Workflow of the analytics operation which is described in the Implementation section \textbf{\ref{sec:implementation}}.}
+  \caption{Workflow of the analytics operation which is described in the Implementation section \ref{sec:implementation}.}
   \label{fig:1}
 \end{figure}
 
@@ -91,6 +91,39 @@ In this report, we will be using the above mentioned algorithms to perform our p
 
 \section{Implementation}
 \label{sec:implementation}
+The code of this report has been implemented in python using APIs of Apache Spark's machine learning library, PySpark. This library specifically for python to use Apache Spark's resources on a cluster. The code uses python 3.7.0. The program workflow as shown in figure \ref{fig:1}, relies on GCP for data storage as well as Apache Spark clusters.
+
+The data is stored in BigQuery which is used for storing large amounts of data both streaming as well as non-streaming. BigQuery provides prallel processing of SQL queries on a large scale and outputs result in fraction of seconds. This is why BigQuery has been selected as an ideal data hosting service. The data from BigQuery is fed to our program where it is stored as RDD (Resilient Distributed Dataset). Since we had to do some pre-processing of the data, we converted the data to Pandas Dataframe so that we can utilise its APIs. This pre-processed data is then stored in BigQuery so that we won't have to perform pre-processing everytime our cluster runs the program thus preventing huge bills.
+
+This newly stored pre-processed data is then used by our main program where multiple supervised learning algorithms are applied on it to get predictions. This program is then deployed on a cluster running on Dataproc.
+
+In the following sections, each of the steps defined above is described briefly.
+
+\subsection{Data Pre-processing}
+The original dataset had 29 variables. A few of them were categorical variables rest were numerical continuous variables. The following categorical variables were dropped from the dataset which seemed to be not much useful:
+
+\begin{table}[h]
+    \caption{Categorical variables which were dropped}
+    \label{tab:cat_variables}
+	\centering
+    \begin{tabular}{l l l}
+    \toprule
+    \multirow{2}{*}{Variable} & \multirow{2}{*}{Description} & \multirow{2}{*}{Sample} \\ 
+    && \\ \midrule
+    $Id$ & Player's unique identifier & $7f96b2f878858a$ \\ \midrule
+    $matchId$ & Unique identifier for matches & $a10357fd1a4a91$ \\ \midrule
+    $groupId$ & Unique identifier for groups in a match & $4d4b580de459be$  \\
+    \bottomrule
+    \end{tabular}
+\end{table}
+
+We then converted the column $matchType$ from categorical variable to numerical variable, resulting in 15 categories. Since some matches did not had 100 players, we cannot compare data of different matches as the number of players is not same in both, so we normalized the $kills$ and $damageDealt$ variables. To normalize them, we used the formulaes given below:
+
+\[ killsNorm = \frac{kills}{totalPlayers} * 100 \]
+
+\[ damageDealtNorm = \frac{damageDealt}{totalPlayers} * 100 \]
+
+
 
 \section{Experimentation Results and Discussions}
 \label{sec:discussion}
