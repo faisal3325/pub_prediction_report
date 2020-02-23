@@ -256,14 +256,32 @@ The parameters we used for creating clusters are:
     \end{tabular}
 \end{table}
 
+\subsection{Visualizing the output}
+Some of the visualizations have been directly done on Jupyter notebook but most of the visualizations have been done on Google Data Studio which gives a connector to BigQuery and gives flexibility for visualizing large volumes of data.
+
 \section{Experimentation Results and Discussions}
 \label{sec:discussion}
+In this section we will be looking at the results of our program and answer the questions which we set out with earlier in the introduction section \ref{sec:introduction}.
+
+\subsection{Average time a player spends in a match}
+Using $matchDuration$ variable, we have calculated the average time a player spends in a match.
+
+The average time is {1579.51 seconds which translates to 26.32 minutes. 
+
+\subsection{Total number of kills done by users when playing alone versus when playing in a team}
+The following figure \ref{fig:3} shows the share of users performing kills in different $matchType$ scenarios.
 
 \begin{figure}[h]
     \includegraphics[width=9cm]{images/match_type_vs_kills.png}
-    \caption{Workflow of the analytics operation.}
+    \caption{Kills done by users when playing alone versus when playing in team}
     \label{fig:3}
 \end{figure}
+
+From the figure, it can be noted that solo players perform most kills rather than team players. Around 50\% of kills are performed by solo players.
+
+\subsection{How better a player performs (in terms of rankPoints, winPlace, winPoints) when playing alone versus when playing in a team?}
+
+
 
 \begin{table}[h]
     \caption{Performance of different algorithms run on the same dataset}
