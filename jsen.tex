@@ -218,6 +218,43 @@ model_4.fit(X_train,y_train)
 \subsection{Deploying the program to Dataproc cluster}
 Now this program is ready for deploying it on the Apache Spark cluster. Before deploying it to the cluster, the cluster needs to be setup from Google Cloud Console or using $gcloud$ cli command.
 
+The following figure \ref{fig:2} shows a screen capture of the Dataproc where it is showing inputs for clusters formation.
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.65]{images/cluster_1.png}
+    \caption{Google Cloud Console screen of cluster creation}
+    \label{fig:2}
+\end{figure}
+
+\newpage
+
+Alternatively, we can create a cluster using $gcloud$ cli.
+
+\begin{lstlisting}
+    $ gcloud dataproc clusters create cluster-b5bd --region us-central1 --subnet default --zone us-central1-a --master-machine-type n1-standard-4 --master-boot-disk-size 500 --num-workers 2 --worker-machine-type n1-standard-4 --worker-boot-disk-size 500 --image-version 1.3-deb9 --project lyit
+\end{lstlisting}
+
+The parameters we used for creating clusters are:
+\begin{table}[h]
+    \caption{Google Cloud Dataproc parameters for cluster}
+    \label{tab:parameters}
+	\centering
+    \begin{tabular}{l l}
+    \toprule
+    \multirow{1}{*}{Parameter} & \multirow{1}{*}{Value} \\ 
+    & \\ \midrule
+    Region & us-central1 (default) \\ \midrule
+    Subnet & default \\ \midrule
+    Subnet zone & us-central1-a \\ \midrule
+    Master machine type & n1-standard-4 \\ \midrule
+    Master boot disk size & 500 GB \\ \midrule
+    Workers & 2 \\ \midrule
+    Worker machine type & n1-standard-4 \\ \midrule
+    Worker boot disk size & 500 GB \\ \midrule
+    Image version & 1.3-deb9 \\
+    \bottomrule
+    \end{tabular}
+\end{table}
 
 \section{Experimentation Results and Discussions}
 \label{sec:discussion}
@@ -225,7 +262,7 @@ Now this program is ready for deploying it on the Apache Spark cluster. Before d
 \begin{figure}[h]
     \includegraphics[width=9cm]{images/match_type_vs_kills.png}
     \caption{Workflow of the analytics operation.}
-    \label{fig:2}
+    \label{fig:3}
 \end{figure}
 
 \begin{table}[h]
