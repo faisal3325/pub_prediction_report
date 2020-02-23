@@ -53,18 +53,35 @@ All these computations will be performed on distributed computing framework due 
 
 \section{System Overview}
 \label{sec:system_overivew}
-To run the algorithms, Apache Spark has been selected as the proposed solution which swiftly handles large datasets and computes parallely. Apache Sparks is used for performing large-scale data analytics using technologies used in modern data centers on the production level. Apache Spark will be implemented on a cloud solution. Google Cloud Platform (GCP) has been selected as the cloud service provider. Under GCP, the project will be implemented using Cloud DataProc~\cite{noauthor_dataproc_nodate}, BigQuery~\cite{noauthor_bigquery_nodate} and Apache Spark's Machine Learning Library~\cite{noauthor_mllib_nodate}. With the combination of these services, we will be making out our analytics and prediction. Cloud DataProc is described on the GCP website as " a fast, easy-to-use, fully managed cloud service for running Apache Spark and Apache Hadoop clusters in a simpler, more cost-efficient way"~\cite{noauthor_dataproc_nodate}. They have claimed that using their service, it has proven to reduce time consumption on operations which took hours or days on a traditional system to seconds or minutes~\cite{noauthor_dataproc_nodate}. BigQuery will be used in our project to store our datasets which provides a serverless and highly-scalable data warehousing solution. For implementing our model, we will be using Apache Spark's Machine Learning Library. The library is available in Java, Scala, and Python, we are interested to implement our model in Python. 
+To run the algorithms, Apache Spark has been selected as the proposed solution which swiftly handles large datasets and computes parallely. Apache Sparks is used for performing large-scale data analytics using technologies used in modern data centers on the production level. Apache Spark will be implemented on a cloud solution. Google Cloud Platform (GCP) has been selected as the cloud service provider. Under GCP, the project will be implemented using Cloud Dataproc~\cite{noauthor_dataproc_nodate}, BigQuery~\cite{noauthor_bigquery_nodate} and Apache Spark's Machine Learning Library~\cite{noauthor_mllib_nodate}. With the combination of these services, we will be making out our analytics and prediction. Cloud Dataproc is described on the GCP website as " a fast, easy-to-use, fully managed cloud service for running Apache Spark and Apache Hadoop clusters in a simpler, more cost-efficient way"~\cite{noauthor_dataproc_nodate}. They have claimed that using their service, it has proven to reduce time consumption on operations which took hours or days on a traditional system to seconds or minutes~\cite{noauthor_dataproc_nodate}. BigQuery will be used in our project to store our datasets which provides a serverless and highly-scalable data warehousing solution. For implementing our model, we will be using Apache Spark's Machine Learning Library. The library is available in Java, Scala, and Python, we are interested to implement our model in Python. 
 
-We will be creating jobs using Apache Spark ML library and running them on our DataProc clusters. The Figure \ref{fig:1} shown below describes our expected workflow:
+We will be creating jobs using Apache Spark ML library and running them on our Dataproc clusters. The Figure \ref{fig:1} shown below describes our expected workflow:
 
-\begin{figure}[h]
+\begin{figure*}[]
   \includegraphics[width=\textwidth]{images/flow.pdf}
   \caption{Workflow of the analytics operation.}
   \label{fig:1}
-\end{figure}
+\end{figure*}
 
 \section{Algorithms}
 \label{sec:algorithms}
+Algorithms used in this report are for prediction of the win placement percentile of a given player. We have used regression algorithms, AdaBoost Regressor, Gradient Boosting Regressor, Random Forest Regressor and Decision Tree Regressor.
+
+\subsection{AdaBoost Regressor}
+AdaBoost, also known as Adaptive Boosting, is one of the first boosting algorithms proposed by Gödel Prize winners Robert E. Schapire and Yoav Freund in 2012 in their published book "Boosting: Foundations and Algorithms"~\cite{schapire_boosting_2012}. 
+
+A boosting algorithm works by combining multiple weak algorithms which have no correlations amongst each other and voting for the best solution. In this way, a couple of weak algorithms come together to make one strong algorithm. Boosting algorithms are based on ensemble modelling, which literally means "a group producing a single effect".
+
+AdaBoost uses decision tree with a single split as its weak algorithm often called as decision stumps and applies boosting over it. Since AdaBoost is based on ensemble modelling, it tries to fit all data points, it fails with noisy data. The most astonishing thing about this algorithm is that it does not overfits even though it is trying to fit all the data points.
+
+\subsection{Gradient Boosting Regressor}
+
+
+\subsection{Random Forest Regressor}
+
+
+\subsection{Decision Tree Regressor}
+
 
 \section{Implementation}
 \label{sec:implementation}

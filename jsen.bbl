@@ -82,4 +82,8 @@ Dataproc - cloud-native apache hadoop \& apache spark {\textbar} cloud
   \url{https://spark.apache.org/docs/2.0.0/ml-guide.html}
 \BIBentrySTDinterwordspacing
 
+\bibitem{schapire_boosting_2012}
+R.~E. Schapire and Y.~Freund, \emph{Boosting: {{Foundations}} and
+  {{Algorithms}}}.\hskip 1em plus 0.5em minus 0.4em\relax {MIT Press}.
+
 \end{thebibliography}
