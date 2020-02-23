@@ -207,21 +207,17 @@ for col in cols:
 The algorithms applied on the data are AdaBoost, Gradient Boost, Random Forest and Decision Tree. $learning_rate$ has been choosen 80\% for AdaBoost and Gradient Boost while $n\_estimators$ is 10 for Random Forest. The code is shown below for the algorithms applied:
 
 \begin{lstlisting}[language=Python]
-ada = AdaBoostRegressor(learning_rate=0.8)
-ada.fit(X_train,y_train)
-calculate_error(ada,"Adaboost")
+model_1 = AdaBoostRegressor(learning_rate=0.8)
+model_1.fit(X_train,y_train)
 
-GBR = GradientBoostingRegressor(learning_rate=0.8)
-GBR.fit(X_train,y_train)
-calculate_error(GBR,"GBR")
+model_2 = GradientBoostingRegressor(learning_rate=0.8)
+model_2.fit(X_train,y_train)
 
-forest = RandomForestRegressor(n_estimators=10)
-forest.fit(X_train,y_train)
-calculate_error(forest,"forest")
+model_3 = RandomForestRegressor(n_estimators=10)
+model_3.fit(X_train,y_train)
 
-tree = DecisionTreeRegressor()
-tree.fit(X_train,y_train)
-calculate_error(tree,"tree")
+model_4 = DecisionTreeRegressor()
+model_4.fit(X_train,y_train)
 \end{lstlisting}
 
 \subsection{Deploying the program to Dataproc cluster}
