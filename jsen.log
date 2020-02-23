@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.9)  23 FEB 2020 18:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.9)  23 FEB 2020 18:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -420,43 +420,29 @@ File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
 Package: listings 2019/09/10 1.8c (Carsten Heinz)
- (c:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
- (c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-LaTeX Info: Redefining \color on input line 709.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+ (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
 ) (c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux)
 \openout1 = `jsen.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 42.
  (c:/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    ... okay on input line 42.
  (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count131
@@ -477,60 +463,42 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \c@lstlisting=\count137
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 62.
+Package color Info: Redefining color nblue on input line 57.
+Package color Info: Redefining color mblue on input line 57.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 57.
  (c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-
-Package xcolor Warning: Incompatible color definition on input line 62.
-
+Package color Info: Redefining color nblue on input line 57.
+Package color Info: Redefining color mblue on input line 57.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 62.
-
-Package xcolor Warning: Incompatible color definition on input line 62.
-
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <9> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 62.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 57.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <9> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 62.
-
-Package xcolor Warning: Incompatible color definition on input line 62.
-
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 57.
+Package color Info: Redefining color nblue on input line 57.
+Package color Info: Redefining color mblue on input line 57.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 62.
-
-Package xcolor Warning: Incompatible color definition on input line 62.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
-(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
  (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-Package xcolor Warning: Incompatible color definition on input line 62.
-
-
-Package xcolor Warning: Incompatible color definition on input line 62.
-
-
-Package xcolor Warning: Incompatible color definition on input line 62.
-
-
-Package xcolor Warning: Incompatible color definition on input line 62.
-
-
-Package xcolor Warning: Incompatible color definition on input line 64.
-
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 64.
-(c:/texlive/2019/texmf-dist/tex/latex/psnfss/t1phv.fd
+Package color Info: Redefining color nblue on input line 57.
+Package color Info: Redefining color mblue on input line 57.
+Package color Info: Redefining color nblue on input line 57.
+Package color Info: Redefining color mblue on input line 57.
+Package color Info: Redefining color nblue on input line 57.
+Package color Info: Redefining color mblue on input line 57.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 59.
+ (c:/texlive/2019/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
-
-Package xcolor Warning: Incompatible color definition on input line 84.
-
 Package epstopdf Info: Source file: <LOGO-jsen-web.eps>
 (epstopdf)                    date: 2019-12-25 20:37:30
 (epstopdf)                    size: 35523 bytes
@@ -538,7 +506,7 @@ Package epstopdf Info: Source file: <LOGO-jsen-web.eps>
 (epstopdf)                    date: 2019-12-25 20:37:46
 (epstopdf)                    size: 3842 bytes
 (epstopdf)             Command: <repstopdf --outfile=LOGO-jsen-web-eps-converted-to.pdf LOGO-jsen-web.eps>
-(epstopdf)             \includegraphics on input line 87.
+(epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -546,11 +514,8 @@ pdfTeX warning: pdflatex.exe (file c:/Users/faisa/OneDrive - Letterkenny Institu
 <LOGO-jsen-web-eps-converted-to.pdf, id=1, 241.90375pt x 61.22874pt>
 File: LOGO-jsen-web-eps-converted-to.pdf Graphic file (type pdf)
 <use LOGO-jsen-web-eps-converted-to.pdf>
-Package pdftex.def Info: LOGO-jsen-web-eps-converted-to.pdf  used on input line 87.
+Package pdftex.def Info: LOGO-jsen-web-eps-converted-to.pdf  used on input line 82.
 (pdftex.def)             Requested size: 85.79993pt x 21.7172pt.
-
-Package xcolor Warning: Incompatible color definition on input line 87.
-
 
 Overfull \hbox (221.20007pt too wide) has occurred while \output is active
 [][] 
@@ -576,46 +541,19 @@ Overfull \vbox (16.09671pt too high) has occurred while \output is active []
 <images/flow.pdf, id=15, 529.01637pt x 233.9139pt>
 File: images/flow.pdf Graphic file (type pdf)
 <use images/flow.pdf>
-Package pdftex.def Info: images/flow.pdf  used on input line 91.
+Package pdftex.def Info: images/flow.pdf  used on input line 86.
 (pdftex.def)             Requested size: 256.0748pt x 113.23036pt.
 
-Overfull \hbox (4.0748pt too wide) in paragraph at lines 91--92
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 86--87
 [][] 
  []
 
-
-Package xcolor Warning: Incompatible color definition on input line 92.
-
-
-Package xcolor Warning: Incompatible color definition on input line 92.
-
-
-Package xcolor Warning: Incompatible color definition on input line 96.
-
-
-Package xcolor Warning: Incompatible color definition on input line 100.
-
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 100.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 95.
 
-Package xcolor Warning: Incompatible color definition on input line 107.
-
-
-Package xcolor Warning: Incompatible color definition on input line 110.
-
-
-Underfull \hbox (badness 3375) in paragraph at lines 111--112
+Underfull \hbox (badness 3375) in paragraph at lines 106--107
 []\OT1/ptm/m/n/10 Ho dis-cov-ered this su-per-vised learn-ing al-go-rithm in
  []
-
-
-Package xcolor Warning: Incompatible color definition on input line 115.
-
-
-Package xcolor Warning: Incompatible color definition on input line 120.
-
-
-Package xcolor Warning: Incompatible color definition on input line 129.
 
 
 Overfull \vbox (5.0pt too high) has occurred while \output is active []
@@ -632,128 +570,62 @@ pdfTeX warning: pdflatex.exe: pop empty color page stack 0
 
 
 pdfTeX warning: pdflatex.exe: pop empty color page stack 0
+
+
+pdfTeX warning: pdflatex.exe: pop empty color page stack 0
  <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/flow.pdf
 
 pdfTeX warning: pdflatex.exe (file c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/flow.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-
-Package xcolor Warning: Incompatible color definition on input line 130.
-
 \width=\dimen147
 
-Package xcolor Warning: Incompatible color definition on input line 134.
-
-
-Overfull \hbox (1.14133pt too wide) in paragraph at lines 137--146
+Overfull \hbox (1.14133pt too wide) in paragraph at lines 132--141
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 []\OT1/ptm/m/n/10 We then cre-ated an-other nor-mal-ized vari-able,
  []
 
-
-Package xcolor Warning: Incompatible color definition on input line 159.
-
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 159.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 154.
 
-Package xcolor Warning: Incompatible color definition on input line 162.
-
-
-Package xcolor Warning: Incompatible color definition on input line 165.
-
-
-Package xcolor Warning: Incompatible color definition on input line 168.
-
-
-Package xcolor Warning: Incompatible color definition on input line 171.
-
-
-Package xcolor Warning: Incompatible color definition on input line 174.
-
-
-Package xcolor Warning: Incompatible color definition on input line 177.
-
-
-Package xcolor Warning: Incompatible color definition on input line 180.
-
-
-Package xcolor Warning: Incompatible color definition on input line 183.
-
-
-Package xcolor Warning: Incompatible color definition on input line 186.
-
-
-Package xcolor Warning: Incompatible color definition on input line 189.
-
-
-Package xcolor Warning: Incompatible color definition on input line 192.
-
-
-Package xcolor Warning: Incompatible color definition on input line 195.
-
-
-Underfull \hbox (badness 6641) in paragraph at lines 195--196
+Underfull \hbox (badness 6641) in paragraph at lines 190--191
 [] \OT1/phv/m/sl/9 13) mean-TeamKillPlace[]: [][][][] $\OML/cmm/m/it/10 meanTeamKillPlace$ \OT1/ptm/m/n/10 is the
  []
 
-
-Package xcolor Warning: Incompatible color definition on input line 199.
-
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2019/09/10 1.8c listings language file
-)
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 202.
- (c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 197.
+(c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-
-Package xcolor Warning: Incompatible color definition on input line 223.
-
-
-Package xcolor Warning: Incompatible color definition on input line 227.
+Overfull \hbox (5.59973pt too wide) in paragraph at lines 208--209
+[][][][][]  
+ []
 
 <images/match_type_vs_kills.png, id=48, 445.06274pt x 307.1475pt>
 File: images/match_type_vs_kills.png Graphic file (type png)
 <use images/match_type_vs_kills.png>
-Package pdftex.def Info: images/match_type_vs_kills.png  used on input line 231.
+Package pdftex.def Info: images/match_type_vs_kills.png  used on input line 226.
 (pdftex.def)             Requested size: 256.0748pt x 176.73029pt.
 
-Overfull \hbox (4.0748pt too wide) in paragraph at lines 231--232
+Overfull \hbox (4.0748pt too wide) in paragraph at lines 226--227
 [][] 
  []
-
-
-Package xcolor Warning: Incompatible color definition on input line 232.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 \width=\dimen148
 
-Package xcolor Warning: Incompatible color definition on input line 237.
-
-
-Overfull \hbox (3.81438pt too wide) in paragraph at lines 240--250
+Overfull \hbox (3.81438pt too wide) in paragraph at lines 235--245
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package xcolor Warning: Incompatible color definition on input line 252.
-
 (c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.bbl
-
-Package xcolor Warning: Incompatible color definition on input line 2.
-
-
-Package xcolor Warning: Incompatible color definition on input line 42.
-
-
 Overfull \vbox (5.0pt too high) has occurred while \output is active []
 
  [3]
@@ -764,25 +636,21 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
 )
-
-Package xcolor Warning: Incompatible color definition on input line 258.
-
-
 Overfull \vbox (5.0pt too high) has occurred while \output is active []
 
  [4
 
  <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/match_type_vs_kills.png>] (c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux) ) 
 Here is how much of TeX's memory you used:
- 6376 strings out of 492164
- 85873 string characters out of 6129088
- 378374 words of memory out of 5000000
- 10636 multiletter control sequences out of 15000+600000
- 67051 words of font info for 110 fonts, out of 8000000 for 9000
+ 5939 strings out of 492164
+ 80921 string characters out of 6129088
+ 348383 words of memory out of 5000000
+ 10205 multiletter control sequences out of 15000+600000
+ 66835 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,19n,42p,1645b,1239s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,19n,40p,1645b,1236s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.pdf" (4 pages, 266136 bytes).
+Output written on "c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.pdf" (4 pages, 265913 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  71 compressed objects within 1 object stream

@@ -107,10 +107,8 @@ INPUT c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
 INPUT c:/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
-INPUT c:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT c:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux
 OUTPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux
@@ -204,11 +202,8 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvro7t.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/helvetic/phvro7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvro7t.tfm
-INPUT c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/match_type_vs_kills.png
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/match_type_vs_kills.png
