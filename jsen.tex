@@ -48,7 +48,7 @@
 
 \IEEEtitleabstractindextext{
 \begin{abstract}
-In this technical report we have implemented a big data analytics framework on a PlayerUnknown’s Battlegrounds (PUBG) dataset from Kaggle. We analysed a few points using the dataset and answered our research questions where we focused on the performance of players. Our research questions debunked wether playing solo or playing in a team is more better for performance and gaining points and perks in the game. Using 29 features, we engineered a couple more features to make our analytics stronger. We also performed a few prediction algorithms on the dataset to predict win place percentile of players. We then compared these algorithms and came to the conclusion of which is the best performing algorithm. Our framework is implemented on Apache Spark using Google Cloud Platform. We used BigQuery and Cloud Dataproc to implement the system. The source code of this report is hosted on Github and open sourced
+In this technical report, we have implemented a big data analytics framework on a PlayerUnknown’s Battlegrounds (PUBG) dataset from Kaggle. We analyzed a few points using the dataset and answered our research questions where we focused on the performance of players. Our research questions debunked whether playing solo or playing in a team is better for performance and gaining points and perks in the game. Using 29 features, we engineered a couple more features to make our analytics stronger. We also performed a few prediction algorithms on the dataset to predict the win place percentile of players. We then compared these algorithms and concluded which is the best performing algorithm. Our framework is implemented on Apache Spark using the Google Cloud Platform. We used BigQuery and Cloud Dataproc to implement the system. The source code of this report is hosted on Github and open-sourced.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -59,29 +59,29 @@ PlayerUnknown’s Battlegrounds, PUBG, Apache Spark, PySpark, Google Cloud Platf
 
 \section{Introduction}
 \label{sec:introduction}
-\IEEEPARstart{P}{layerUnknown's} Battlegrounds (PUBG)~\cite{noauthor_playerunknowns_nodate} is an online shooter multiplayer game of battle royale genre~\cite{noauthor_battle_2019} inspired by the Japanese film "Battle Royale"~\cite{fukasaku_battle_2000}. The game is playable on Personal Computers (PC), Sony's PlayStation, Micorsoft's Xbox and mobile devices (Android and iOS). It was developed and published in late 2017 by South Korean video game company Bluehole's subsidiary PUBG Corporation. Since it's launch, PUBG has seen exponential growth. It crossed the 1 million players mark within 48 hours of its release on consoles and a total of 30 million copies were sold for both PC and consoles just within a few days of its release. It has gained quite a good traction in Asian countries especially in China and India on to its mobile version with India standing at 116 million downloads which makes 21\% of its total worldwide downloads followed by China with 108 million downloads which accounted for 19\% while the USA stood at 8\% with 42 million downloads~\cite{mcaloon_now_nodate}. With these many players on its platform, it generated vast amounts of data.
+\IEEEPARstart{P}{layerUnknown's} Battlegrounds (PUBG)~\cite{noauthor_playerunknowns_nodate} is an online shooter multiplayer game of battle royale genre~\cite{noauthor_battle_2019} inspired by the Japanese film "Battle Royale"~\cite{fukasaku_battle_2000}. The game is playable on Personal Computers (PC), Sony's PlayStation, Microsoft's Xbox and mobile devices (Android and iOS). It was developed and published in late 2017 by South Korean video game company Bluehole's subsidiary PUBG Corporation. Since it's launch, PUBG has seen exponential growth. It crossed the 1 million players mark within 48 hours of its release on consoles and a total of 30 million copies were sold for both PC and consoles just within a few days of its release. It has gained quite a good traction in Asian countries, especially in China and India on to its mobile version with India standing at 116 million downloads which makes 21\% of its total worldwide downloads followed by China with 108 million downloads which accounted for 19\% while the USA stood at 8\% with 42 million downloads~\cite{mcaloon_now_nodate}. With these many players on its platform, it generated vast amounts of data.
 
-The game's most popular mode, classic mode, allows up to 100 players to parachute on an area of up to 8 x 8 kilometers island on which players will fight with each other in teams of maximum 4 players, the team to survive at the last is winner. The game world depending on the map selected has different terrains with sea, rivers, deserts, forests, snow, roads and bridges. Buildings and towns are spread across the map which has weapons and other essential items for a player to fight and survive in the game.
+The game's most popular mode, classic mode, allows up to 100 players to parachute on an area of up to 8 x 8 kilometers island on which players will fight with each other in teams of maximum 4 players, the team to survive at the last is the winner. The game world depending on the map selected has different terrains with sea, rivers, deserts, forests, snow, roads and bridges. Buildings and towns are spread across the map which has weapons and other essential items for a player to fight and survive in the game.
 
 This technical report is going to explore a publicly available dataset~\cite{noauthor_pubg_nodate} of the popular game. At the time of writing this report, the dataset is hosted on a popular online community for data scientists and machine learning practitioners, Kaggle~\cite{noauthor_kaggle_nodate}. The code for this report has been open-sourced and hosted on Github~\cite{khan_faisal3325/pubg_prediction_2020}.
 
 \textbf{The data} is taken from Kaggle's competition on "PUBG Finish Placement Prediction"~\cite{noauthor_pubg_nodate}. It contains data of 65,000 matches where each row defines a player's stats after they finish their game. The training set has 4,446,966 rows while the testing set has 1,934,174 rows and 29 variables. The data is complete, but it requires some pre-processing for converting categorical variables to numerical.
 
-\textbf{The primary goal of this technical report} is predicting percentile of a player's finishing position where 0 denotes last position and 1 stands for 1st position in a match. The report has also answered the following questions with visualizations based on analysis of the data:
+\textbf{The primary goal of this technical report} is predicting percentile of a player's finishing position where 0 denotes last position and 1 stand for 1st position in a match. The report has also answered the following questions with visualizations based on analysis of the data:
 \begin{enumerate}
     \item Average time a player spends in a match.
     \item Total number of kills done by users when playing alone versus when playing in a team.
     \item How better a player performs (in terms of rankPoints, winPlace, winPoints) when playing alone versus when playing in a team?
 \end{enumerate}
-All these computations will be performed on distributed computing framework due to large size of the data.
+All these computations will be performed on the distributed computing framework due to the large size of the data.
 
-\textbf{Organization of the report} is formatted in the following way. The paper will start with a brief overview of the program paradigm in Section \textbf{\ref{sec:system_overivew}}. Later on, the algorithms used for prediction will be covered in Section \textbf{\ref{sec:algorithms}}. The implementation plan which describes the data pre-processing stage as well as model creation will be discussed in Section \textbf{\ref{sec:implementation}}. Section \textbf{\ref{sec:discussion}} will discuss the observations of the analysis answering the questions mentioned earlier. This section will also compare the used algorithms. The paper will conclude with the observations from this report in Section \textbf{\ref{sec:conclusion}}. Finally the paper will provide scope of future work in the last section \textbf{\ref{sec:future}}
+\textbf{Organization of the report} is formatted in the following way. The paper will start with a brief overview of the programming paradigm in Section \textbf{\ref{sec:system_overivew}}. Later on, the algorithms used for prediction will be covered in Section \textbf{\ref{sec:algorithms}}. The implementation plan which describes the data pre-processing stage, as well as model creation, will be discussed in Section \textbf{\ref{sec:implementation}}. Section \textbf{\ref{sec:discussion}} will discuss the observations of the analysis answering the questions mentioned earlier. This section will also compare the used algorithms. The paper will conclude with the observations from this report in Section \textbf{\ref{sec:conclusion}}. Finally, the paper will provide the scope of future work in the last section \textbf{\ref{sec:future}}
 
 \section{System Overview}
 \label{sec:system_overivew}
-To run the algorithms, Apache Spark has been selected as the proposed solution which swiftly handles large datasets and computes parallely. Apache Sparks is used for performing large-scale data analytics using technologies used in modern data centers on the production level. Apache Spark will be implemented on a cloud solution. Google Cloud Platform (GCP) has been selected as the cloud service provider. Under GCP, the project will be implemented using Cloud Dataproc~\cite{noauthor_dataproc_nodate}, BigQuery~\cite{noauthor_bigquery_nodate} and Apache Spark's Machine Learning Library~\cite{noauthor_mllib_nodate}. With the combination of these services, we will be making out our analytics and prediction. Cloud Dataproc is described on the GCP website as " a fast, easy-to-use, fully managed cloud service for running Apache Spark and Apache Hadoop clusters in a simpler, more cost-efficient way"~\cite{noauthor_dataproc_nodate}. They have claimed that using their service, it has proven to reduce time consumption on operations which took hours or days on a traditional system to seconds or minutes~\cite{noauthor_dataproc_nodate}. BigQuery will be used in our project to store our datasets which provides a serverless and highly-scalable data warehousing solution. For implementing our model, we will be using Apache Spark's Machine Learning Library. The library is available in Java, Scala, and Python, we are interested to implement our model in Python. 
+To run the algorithms, Apache Spark has been selected as the proposed solution which swiftly handles large datasets and computes parallelly. Apache Sparks is used for performing large-scale data analytics using technologies used in modern data centers on the production level. Apache Spark will be implemented on a cloud solution. Google Cloud Platform (GCP) has been selected as the cloud service provider. Under GCP, the project will be implemented using Cloud Dataproc~\cite{noauthor_dataproc_nodate}, BigQuery~\cite{noauthor_bigquery_nodate} and Apache Spark's Machine Learning Library~\cite{noauthor_mllib_nodate}. With the combination of these services, we will be making out our analytics and prediction. Cloud Dataproc is described on the GCP website as " a fast, easy-to-use, fully managed cloud service for running Apache Spark and Apache Hadoop clusters in a simpler, more cost-efficient way"~\cite{noauthor_dataproc_nodate}. They have claimed that using their service, it has proven to reduce time consumption on operations which took hours or days on a traditional system to seconds or minutes~\cite{noauthor_dataproc_nodate}. BigQuery will be used in our project to store our datasets which provides a serverless and highly-scalable data warehousing solution. For implementing our model, we will be using Apache Spark's Machine Learning Library. The library is available in Java, Scala, and Python, we are interested to implement our model in Python. 
 
-We will be creating jobs using Apache Spark ML library and running them on our Dataproc clusters. The Figure \ref{fig:1} shown below describes our expected workflow:
+We will be creating jobs using Apache Spark ML library and running them on our Dataproc clusters. Figure \ref{fig:1} shown below describes our expected workflow:
 
 \begin{figure}[h]
   \includegraphics[width=9cm]{images/flow.pdf}
@@ -91,35 +91,35 @@ We will be creating jobs using Apache Spark ML library and running them on our D
 
 \section{Algorithms}
 \label{sec:algorithms}
-Algorithms used in this report are for prediction of the win placement percentile of a given player. We have used regression algorithms, AdaBoost Regressor, Gradient Boosting Regressor, Random Forest Regressor and Decision Tree Regressor.
+Algorithms used in this report are for prediction of the win placement percentile of a given player. We have used regression algorithms, AdaBoost Regressor, Gradient Boosting Regressor, Random Forest Regressor, and Decision Tree Regressor.
 
 \subsection{AdaBoost Regressor}
 AdaBoost, also known as Adaptive Boosting, is one of the first boosting algorithms proposed by Gödel Prize winners Robert E. Schapire and Yoav Freund in 2012 in their published book "Boosting: Foundations and Algorithms"~\cite{schapire_boosting_2012}. 
 
-A boosting algorithm works by combining multiple weak algorithms which have no correlations amongst each other and voting for the best solution. In this way, a couple of weak algorithms come together to make one strong algorithm. Boosting algorithms are based on ensemble learning, which literally means "a group producing a single effect".
+A boosting algorithm works by combining multiple weak algorithms that have no correlations amongst each other and voting for the best solution. In this way, a couple of weak algorithms come together to make one strong algorithm. Boosting algorithms are based on ensemble learning, which means "a group producing a single effect".
 
-AdaBoost uses decision tree with a single split as its weak algorithm often called as decision stumps and applies boosting over it. Since AdaBoost is based on ensemble learning, it tries to fit all data points, it fails with noisy data. The most astonishing thing about this algorithm is that it does not overfits even though it is trying to fit all the data points. AdaBoost Regressor can be used both for classification and regression problems.
+AdaBoost uses a decision tree with a single split as its weak algorithm often called decision stumps and applies to boost over it. Since AdaBoost is based on ensemble learning, it tries to fit all data points, it fails with noisy data. The most astonishing thing about this algorithm is that it does not overfits even though it is trying to fit all the data points. AdaBoost Regressor can be used both for classification and regression problems.
 
 \subsection{Gradient Boosting Regressor}
-Similarly to AdaBoost discussed earlier, gradient boost is also an ensemble learning based boosting algorithm. It also works on decision stumps. This algorithm was proposed by Friedman in 1999 in his paper titled "Greedy Function Approximation: A Gradient Boosting Machine"~\cite{friedman_greedy_2001}. The only difference between AdaBoost and gradient boost is that depth level of the tree varies from 8 to 32 in the latter while the depth level is 1 in the former. This algorithm can also be applied for solving classification and regression problems.
+Similarly to AdaBoost discussed earlier, gradient boost is also an ensemble learning-based boosting algorithm. It also works on decision stumps. This algorithm was proposed by Friedman in 1999 in his paper titled "Greedy Function Approximation: A Gradient Boosting Machine"~\cite{friedman_greedy_2001}. The only difference between AdaBoost and gradient boost is that the depth level of the tree varies from 8 to 32 in the latter while the depth level is 1 in the former. This algorithm can also be applied for solving classification and regression problems.
 
 \subsection{Random Forest Regressor}
-Ho discovered this supervised learning algorithm in 1995~\cite{tin_kam_ho_random_1995}. Random forest is also based on ensemble learning similarly to AdaBoost and gradient boost. There are two types of ensemble learnings, boosting and bagging. Unlike AdaBoost and gradient boost, random forest is a bagging based technique. Bagging also referred to as bootstrap aggregating which samples data randomly with a possibility of replacement. This technique enables multiple models to operate without intervening with each other.
+Ho discovered this supervised learning algorithm in 1995~\cite{tin_kam_ho_random_1995}. Random forest is also based on ensemble learning similarly to AdaBoost and gradient boost. There are two types of ensemble learnings, boosting and bagging. Unlike AdaBoost and gradient boost, a random forest is a bagging based technique. Bagging also referred to as bootstrap aggregating which samples data randomly with a possibility of replacement. This technique enables multiple models to operate without intervening with each other.
 
-In the random forest algorithm based on bagging, all its trees run independetly together. These trees are decision trees generated during training. The benefit of this algorithm is that it can swiftly handle large amount of data but it overfits with noisy data.
+In the random forest algorithm based on bagging, all its trees run independently together. These trees are decision trees generated during training. The benefit of this algorithm is that it can swiftly handle a large amounts of data but it overfits with noisy data.
 
 \subsection{Decision Tree Regressor}
-Decision tree is a predictive modelling algorithm which with the help of a collection of binary rules predict an output. These rules are formed by a QnA by the algorithm on the data to narrow down to the problem until it reaches a final conclusion. It can be used for both classification and regression problems. But this algorithm is not suitable for continuous variables and is also prone to over fitting.
+Decision tree is a predictive modeling algorithm which with the help of a collection of binary rules predicts an output. These rules are formed by a QnA by the algorithm on the data to narrow down to the problem until it reaches a conclusion. It can be used for both classification and regression problems. But this algorithm is not suitable for continuous variables and is also prone to overfitting.
 
-In this report, we will be using the above mentioned algorithms to perform our primary goal of predicting win placement percentile of players. These algorithms will be compared on the basis of their accuracy.
+In this report, we will be using the above-mentioned algorithms to perform our primary goal of predicting win placement percentile of players. These algorithms will be compared based on their accuracy.
 
 \section{Implementation}
 \label{sec:implementation}
 The code of this report has been implemented in python using APIs of Apache Spark's machine learning library, PySpark. This library specifically for python to use Apache Spark's resources on a cluster. The code uses python 3.7.0. The program workflow as shown in figure \ref{fig:1}, relies on GCP for data storage as well as Apache Spark clusters.
 
-The data is stored in BigQuery which is used for storing large amounts of data both streaming as well as non-streaming. BigQuery provides prallel processing of SQL queries on a large scale and outputs result in fraction of seconds. This is why BigQuery has been selected as an ideal data hosting service. The data from BigQuery is fed to our program where it is stored as RDD (Resilient Distributed Dataset). Since we had to do some pre-processing of the data, we converted the data to Pandas Dataframe so that we can utilise its APIs. This pre-processed data is then stored in BigQuery so that we won't have to perform pre-processing everytime our cluster runs the program thus preventing huge bills.
+The data is stored in BigQuery which is used for storing large amounts of data both streaming as well as non-streaming. BigQuery provides parallel processing of SQL queries on a large scale and outputs result in a fraction of seconds. This is why BigQuery has been selected as an ideal data hosting service. The data from BigQuery is fed to our program where it is stored as RDD (Resilient Distributed Dataset). Since we had to do some pre-processing of the data, we converted the data to Pandas Dataframe so that we can utilize its APIs. This pre-processed data is then stored in BigQuery so that we won't have to perform pre-processing every time our cluster runs the program thus preventing huge bills.
 
-This newly stored pre-processed data is then used by our main program where multiple supervised learning algorithms are applied on it to get predictions. This program is then deployed on a cluster running on Dataproc.
+This newly stored pre-processed data is then used by our main program where multiple supervised learning algorithms are applied to it to get predictions. This program is then deployed on a cluster running on Dataproc.
 
 In the following sections, each of the steps defined above is described briefly.
 
@@ -141,13 +141,13 @@ The original dataset had 29 variables. A few of them were categorical variables 
     \end{tabular}
 \end{table}
 
-We then converted the column $matchType$ from categorical variable to numerical variable, resulting in 15 categories. Since some matches did not had 100 players, we cannot compare data of different matches as the number of players is not same in both, so we normalized the $kills$ and $damageDealt$ variables. To normalize them, we used the formulaes given below:
+We then converted the column $matchType$ from categorical variable to numerical variable, resulting in 15 categories. Since some matches did not have 100 players, we cannot compare data of different matches as the number of players is not the same in both, so we normalized the $kills$ and $damageDealt$ variables. To normalize them, we used the formulas given below:
 
 \[ killsNorm = \frac{kills}{totalPlayers} * 100 \]
 
 \[ damageDealtNorm = \frac{damageDealt}{totalPlayers} * 100 \]
 
-We then created another normalized variable, $normMatchType$ with $matchType$ values. Due to huge differences in the size of the solo game or of a team game, we set this 'other' and to the normal team size: 1 for solo; 2 for a double; < 4 for the team; and other for the rest. The data are different from the standard team sizes. Data from the custom games are also made up of different values of team sizes like 10, 15, 92, etc. that are added to a different value.
+We then created another normalized variable, $normMatchType$ with $matchType$ values. Due to huge differences in the size of the solo game or of a team game, we set this 'other' and to the normal team size: 1 for solo; 2 for a double; < 4 for the team; and others for the rest. The data are different from the standard team sizes. Data from the custom games are also made up of different values of team sizes like 10, 15, 92, etc. that are added to a different value.
 
 We then did feature engineering where we created 13 additional variables:
 
@@ -176,7 +176,7 @@ $maxTeamKills$ shows the maximum number of team kills a player has done.
 $totalTeamKills$ is the total kills a team has performed together.
 
 \subsubsection{headshotKillRate}
-$headshotKillRate$ is made for identifying the skill of the player by dividing total number of headshot kills he did, $headshotKills$ by the total $kills$.
+$headshotKillRate$ is made for identifying the skill of the player by dividing the total number of headshot kills he did, $headshotKills$ by the total $kills$.
 
 \subsubsection{itemsUsedPerTeam}
 $itemsUsedPerTeam$ is the total number of items used by a team combined.
@@ -217,7 +217,7 @@ model_4.fit(X_train,y_train)
 \end{lstlisting}
 
 \subsection{Deploying the program to Dataproc cluster}
-Now this program is ready for deploying it on the Apache Spark cluster. Before deploying it to the cluster, the cluster needs to be setup from Google Cloud Console or using $gcloud$ cli command.
+Now, this program is ready for deploying it on the Apache Spark cluster. Before deploying it to the cluster, the cluster needs to be set up from Google Cloud Console or using $gcloud$ cli command.
 
 The following figure \ref{fig:2} shows a screen capture of the Dataproc where it is showing inputs for clusters formation.
 \begin{figure}[h]
@@ -297,11 +297,11 @@ The code repository contains the following files:
   ]
 \end{forest}
 
-$\_analysis.ipynb$ is our main program which is deployed on the cluster. $ml.ipynb$ is where we did some trail runs in our local system. $pre\-processing.ipynb$ is the notebook file where we did pre-processing of our data along with feature engineering. There is a $trails$ folder where we have some extra code in which we did experimentations on the data.
+$\_analysis.ipynb$ is our main program that is deployed on the cluster. $ml.ipynb$ is where we did some trial runs in our local system. $pre\-processing.ipynb$ is the notebook file where we did pre-process of our data along with feature engineering. There is a $trails$ folder where we have some extra code in which we did experimentations on the data.
 
 \section{Experimentation Results and Discussions}
 \label{sec:discussion}
-In this section we will be looking at the results of our program and answer the questions which we set out with earlier in the introduction section \ref{sec:introduction}.
+In this section, we will be looking at the results of our program and answer the questions which we set out earlier in the introduction section \ref{sec:introduction}.
 
 \subsection{Average time a player spends in a match}
 Using $matchDuration$ variable, we have calculated the average time a player spends in a match.
@@ -320,7 +320,7 @@ The following figure \ref{fig:3} shows the share of users performing kills in di
 From the figure, it can be noted that solo players perform most kills rather than team players. Around 50\% of kills are performed by solo players.
 
 \subsection{How better a player performs (in terms of $rankPoints$, $winPlace$, $winPoints$) when playing alone versus when playing in a team?}
-In the following table \ref{tab:player_performance} we can see that a player playing solo performs more better in terms of winning place while rank points is achievable when playing in team. Winning points is also achievable more when playing solo as it is correlated with winning place.
+In the following table \ref{tab:player_performance} we can see that a player playing solo performs better in terms of winning place while rank points are achievable when playing in a team. Winning points is also achievable more when playing solo as it is correlated with winning place.
 
 \begin{table}[h]
     \caption{Player performance in terms of $rankPoints$, $winPlace$, $winPoints$ when playing alone versus when playing in a team}
@@ -357,15 +357,15 @@ The algorithms we discussed earlier in section \ref{sec:algorithms} is compared 
     \end{tabular}
 \end{table}
 
-We can see that gradient boosting regressor has the highest performance that is 94.86\%. It can also be noted that decision tree regressor has the lowest accuracy that is 81.58\%.
+We can see that the gradient boosting regressor has the highest performance that is 94.86\%. It can also be noted that the decision tree regressor has the lowest accuracy that is 81.58\%.
 
 \section{Conclusion}
 \label{sec:conclusion}
-In this report we implemented a big data analytic framework on a distributed computing framework. The framework selected for this report is Apache Spark. Using a combination of different services from Google Cloud, we implemented the program to work on clusters. We answered our research questions wherein we discovered that playing solo in PUBG is more better than playing in a team. From our analytics we have come to this conclusion. We also predicted $winPlacePerc$ using a few ensemble learning algorithms like AdaBoost, gradient boost and random forest. We also applied decision tree regressor on the data which performed very bad with just 81.58\% accuracy while our top performing algorithms achieved an accuracy of 94.86\%. 
+In this report, we implemented a big data analytics framework on a distributed computing framework. The framework selected for this report is Apache Spark. Using a combination of different services from Google Cloud, we implemented the program to work on clusters. We answered our research questions wherein we discovered that playing solo in PUBG is better than playing in a team. From our analytics, we have come to this conclusion. We also predicted $winPlacePerc$ using a few ensemble learning algorithms like AdaBoost, gradient boost and random forest. We also applied decision tree regressor on the data which performed very bad with just 81.58\% accuracy while our top-performing algorithms achieved an accuracy of 94.86\%. 
 
 \section{Future Work}
 \label{sec:future}
-Further, the prediction will be performed later using a deep learning framework. Moreover, more data analysis can be performed to get a better idea how to be a top player in PUBG. An automated pipeline for creating a cluster, submitting a job to Cloud Dataproc and then deleting the clusters can be made using CI/CD technologies.
+Further, the prediction will be performed later using a deep learning framework. Moreover, more data analysis can be performed to get a better idea of how to be a top player in PUBG. An automated pipeline for creating a cluster, submitting a job to Cloud Dataproc and then deleting the clusters can be made using CI/CD technologies.
 
 \bibliographystyle{IEEEtran}
 \bibliography{bib}
