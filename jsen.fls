@@ -190,9 +190,9 @@ INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/flow.pdf
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/flow.pdf
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/flow.pdf
@@ -205,9 +205,6 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvro7t.tfm
 INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
-INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/cluster_1.png
-INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/cluster_1.png
-INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/cluster_1.png
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/helvetic/phvrc8t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
@@ -216,6 +213,9 @@ INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/helvetic/phvro7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
+INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/cluster_1.png
+INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/cluster_1.png
+INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/cluster_1.png
 INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8c.tfm
@@ -225,6 +225,7 @@ INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/courier/pcrr8c.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
@@ -236,7 +237,6 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/courier/pcrr8c.vf
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.bbl
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.bbl
 INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.9)  23 FEB 2020 21:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.9)  23 FEB 2020 21:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -603,18 +603,15 @@ Overfull \hbox (5.59973pt too wide) in paragraph at lines 208--209
 [][][][][]  
  []
 
-<images/cluster_1.png, id=48, 356.532pt x 457.71pt>
-File: images/cluster_1.png Graphic file (type png)
-<use images/cluster_1.png>
-Package pdftex.def Info: images/cluster_1.png  used on input line 224.
-(pdftex.def)             Requested size: 231.74304pt x 297.50798pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Overfull \vbox (5.0pt too high) has occurred while \output is active []
 
  [3]
+<images/cluster_1.png, id=57, 356.532pt x 457.71pt>
+File: images/cluster_1.png Graphic file (type png)
+<use images/cluster_1.png>
+Package pdftex.def Info: images/cluster_1.png  used on input line 224.
+(pdftex.def)             Requested size: 231.74304pt x 297.50798pt.
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 234.
  (c:/texlive/2019/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
@@ -630,23 +627,17 @@ Overfull \hbox (4.0748pt too wide) in paragraph at lines 275--276
 [][] 
  []
 
-\width=\dimen149
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Overfull \vbox (5.0pt too high) has occurred while \output is active []
 
- [4
+ [4 <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/cluster_1.png>]
+\width=\dimen149
 
-pdfTeX warning: pdflatex.exe: pop empty color page stack 0
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-pdfTeX warning: pdflatex.exe: pop empty color page stack 0
-
-
-pdfTeX warning: pdflatex.exe: pop empty color page stack 0
- <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/cluster_1.png> <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/match_type_vs_kills.png>]
 \width=\dimen150
 
 Overfull \hbox (3.81438pt too wide) in paragraph at lines 308--318
@@ -663,7 +654,16 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
 )
 Overfull \vbox (5.0pt too high) has occurred while \output is active []
 
- [5] (c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux) )
+ [5
+
+pdfTeX warning: pdflatex.exe: pop empty color page stack 0
+
+
+pdfTeX warning: pdflatex.exe: pop empty color page stack 0
+
+
+pdfTeX warning: pdflatex.exe: pop empty color page stack 0
+ <c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/match_type_vs_kills.png>] (c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux) )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 269 ({)
@@ -671,13 +671,13 @@ Overfull \vbox (5.0pt too high) has occurred while \output is active []
 Here is how much of TeX's memory you used:
  6023 strings out of 492164
  81962 string characters out of 6129088
- 347383 words of memory out of 5000000
+ 346383 words of memory out of 5000000
  10273 multiletter control sequences out of 15000+600000
  71398 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,19n,40p,1645b,1299s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.pdf" (5 pages, 336578 bytes).
+Output written on "c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.pdf" (5 pages, 345006 bytes).
 PDF statistics:
  123 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
