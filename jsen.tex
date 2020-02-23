@@ -10,6 +10,33 @@
 \usepackage{multirow}
 \usepackage{booktabs}
 \usepackage{listings }
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=none,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
 
 \graphicspath{ {./images/} }
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
@@ -172,24 +199,23 @@ This data is now ready for applying our machine learning algorithms and is store
 \subsection{Applying Machine Learning Algorithms}
 The above processed data is now fetched in our main PySpark program which will run on cluster for predictions. While fetching this data, the library somehow interprets the variables as $object$ type rather than numeric. So we have to convert these values to numeric value with the below code:
 
-\begin{lstlisting}
+\begin{lstlisting}[language=Python]
 for col in cols:
-    pubg = pubg.withColumn(
-        col, pubg[col].cast(FloatType()))
+    pubg = pubg.withColumn(col, pubg[col].cast(FloatType()))
 \end{lstlisting}
 
 The algorithms applied on the data are AdaBoost, Gradient Boost, Random Forest and Decision Tree. $learning_rate$ has been choosen 80\% for AdaBoost and Gradient Boost while $n\_estimators$ is 10 for Random Forest. The code is shown below for the algorithms applied:
 
-\begin{lstlisting}
+\begin{lstlisting}[language=Python]
 ada = AdaBoostRegressor(learning_rate=0.8)
 ada.fit(X_train,y_train)
 calculate_error(ada,"Adaboost")
 
-GradientBoostingRegressor(learning_rate=0.8)
+GBR = GradientBoostingRegressor(learning_rate=0.8)
 GBR.fit(X_train,y_train)
 calculate_error(GBR,"GBR")
 
-RandomForestRegressor(n_estimators=10)
+forest = RandomForestRegressor(n_estimators=10)
 forest.fit(X_train,y_train)
 calculate_error(forest,"forest")
 
@@ -197,6 +223,9 @@ tree = DecisionTreeRegressor()
 tree.fit(X_train,y_train)
 calculate_error(tree,"tree")
 \end{lstlisting}
+
+\subsection{Deploying the program to Dataproc cluster}
+Now this program is ready for deploying it on the Apache Spark cluster. Before deploying it to the cluster, the cluster needs to be setup from Google Cloud Console or using $gcloud$ cli command.
 
 
 \section{Experimentation Results and Discussions}
