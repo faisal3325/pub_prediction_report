@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.9)  23 FEB 2020 20:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.9)  23 FEB 2020 20:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -631,8 +631,9 @@ Overfull \hbox (4.0748pt too wide) in paragraph at lines 275--276
  []
 
 \width=\dimen149
+\width=\dimen150
 
-Overfull \hbox (3.81438pt too wide) in paragraph at lines 290--300
+Overfull \hbox (3.81438pt too wide) in paragraph at lines 303--313
  [][] 
  []
 
@@ -669,18 +670,18 @@ Overfull \vbox (5.0pt too high) has occurred while \output is active []
 ### simple group (level 1) entered at line 269 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 5997 strings out of 492164
- 81679 string characters out of 6129088
+ 6023 strings out of 492164
+ 81962 string characters out of 6129088
  347383 words of memory out of 5000000
- 10258 multiletter control sequences out of 15000+600000
- 67128 words of font info for 110 fonts, out of 8000000 for 9000
+ 10273 multiletter control sequences out of 15000+600000
+ 71398 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,19n,40p,1645b,1299s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.pdf" (5 pages, 316818 bytes).
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.pdf" (5 pages, 335412 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 123 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
