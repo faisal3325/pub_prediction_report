@@ -9,6 +9,7 @@
 \usepackage{url}
 \usepackage{multirow}
 \usepackage{booktabs}
+\usepackage{listings }
 
 \graphicspath{ {./images/} }
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
@@ -166,8 +167,16 @@ $percTeamKills$ is the percentage of kills a team has performed in a match based
 \subsubsection{meanTeamKillPlace}
 $meanTeamKillPlace$ is the mean of $killPlace$ for all players in the team.
 
-\subsection{Applying Machine Learning Algorithm}
+This data is now ready for applying our machine learning algorithms and is stored in BigQuery.
 
+\subsection{Applying Machine Learning Algorithms}
+The above processed data is now fetched in our main PySpark program which will run on cluster for predictions. While fetching this data, the library somehow interprets the variables as $object$ type rather than numeric. So we have to convert these values to numeric value with the below code:
+
+\begin{lstlisting}
+for col in cols:
+    pubg = pubg.withColumn(
+        col, pubg[col].cast(FloatType()))
+\end{lstlisting}
 
 \section{Experimentation Results and Discussions}
 \label{sec:discussion}
