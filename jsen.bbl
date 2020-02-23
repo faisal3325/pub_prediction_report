@@ -86,4 +86,16 @@ Dataproc - cloud-native apache hadoop \& apache spark {\textbar} cloud
 R.~E. Schapire and Y.~Freund, \emph{Boosting: {{Foundations}} and
   {{Algorithms}}}.\hskip 1em plus 0.5em minus 0.4em\relax {MIT Press}.
 
+\bibitem{friedman_greedy_2001}
+\BIBentryALTinterwordspacing
+J.~H. Friedman, ``Greedy function approximation: {{A}} gradient boosting
+  machine.'' vol.~29, no.~5, pp. 1189--1232. [Online]. Available:
+  \url{https://projecteuclid.org/euclid.aos/1013203451}
+\BIBentrySTDinterwordspacing
+
+\bibitem{tin_kam_ho_random_1995}
+T.~K. Ho, ``Random decision forests,'' in \emph{Proceedings of 3rd
+  {{International Conference}} on {{Document Analysis}} and {{Recognition}}},
+  vol.~1, pp. 278--282 vol.1.
+
 \end{thebibliography}
