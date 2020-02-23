@@ -193,6 +193,7 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvrc8t.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvro7t.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/helvetic/phvro7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvro7t.tfm
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/match_type_vs_kills.png
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/match_type_vs_kills.png
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/images/match_type_vs_kills.png
@@ -204,11 +205,14 @@ INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/helvetic/phvrc8t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/helvetic/phvro7t.vf
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT c:/Users/faisa/OneDrive - Letterkenny Institute of Technology/2nd Semester/Big Data Analytics - Shagufta/Technical Project/PUBG/Report/report/jsen.aux
 INPUT c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb

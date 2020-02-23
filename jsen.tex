@@ -123,7 +123,63 @@ We then converted the column $matchType$ from categorical variable to numerical 
 
 \[ damageDealtNorm = \frac{damageDealt}{totalPlayers} * 100 \]
 
+We then created another normalized variable, $normMatchType$ with $matchType$ values. Due to huge differences in the size of the solo game or of a team game, we set this 'other' and to the normal team size: 1 for solo; 2 for a double; < 4 for the team; and other for the rest. The data are different from the standard team sizes. Data from the custom games are also made up of different values of team sizes like 10, 15, 92, etc. that are added to a different value.
 
+We then did feature engineering where we created 13 additional variables:
+
+\subsubsection{totalDistance}
+$totalDistance$ is calculated by summing up $rideDistance$, $walkDistance$ and $swimDistance$.
+
+\subsubsection{maxPossibleKills}
+$maxPossibleKills$ is the maximum kills a player can do in a match which is calculated using $totalPlayers - teamSize$.
+
+\subsubsection{itemsUsed}
+$itemsUsed$ is all the items the player has picked up or used. Items which we have data of are $boosts$, $heals$ and $weaponsAcquired$.
+
+\subsubsection{itemsPerDistance}
+$itemsPerDistance$ is the normalized value of $\frac{itemsUsed}{totalDistance}$.
+
+\subsubsection{killsPerDistance}
+$killsPerDistance$ is the normalized value of $\frac{kills}{totalDistance}$.
+
+\subsubsection{damageDealtPerDistance}
+$damageDealtPerDistance$ is the normalized value of $\frac{damageDealt}{totalDistance}$.
+
+\subsubsection{maxTeamKills}
+$maxTeamKills$ shows the maximum number of team kills a player has done.
+
+\subsubsection{totalTeamKills}
+$totalTeamKills$ is the total kills a team has performed together.
+
+% #Total number of kills the team has performed in total
+% data['totalTeamKills'] = data.groupby('groupId')['kills'].sum()
+% data.totalTeamKills.fillna(0,inplace=True)
+% data.totalTeamKills.replace(np.inf, 0, inplace=True)
+
+% #Find the skill of a person by dividing number of headshots by number of kills. Killing with just one headshot proves skill of the person
+% data['headshotKillRate'] = data.headshotKills/data.kills
+% data.headshotKillRate.fillna(0,inplace=True)
+% data.headshotKillRate.replace(np.inf, 0, inplace=True)
+
+% #Find the total items the team has used combined
+% data['itemsUsedPerTeam'] = data.groupby('groupId')['itemsUsed'].sum()
+% data.itemsUsedPerTeam.fillna(0,inplace=True)
+% data.itemsUsedPerTeam.replace(np.inf, 0, inplace=True)
+
+% #Find the percentage of kills the players has performed based on maximum possible kills he can perform. This essentially normalizes the kills for different match sizes
+% data['percKill'] = data.kills / data.maxPossibleKills
+% data.percKill.fillna(0,inplace=True)
+% data.percKill.replace(np.inf, 0, inplace=True)
+
+% #Find the percentage of kills the team has performed based on maximum possible kills they can perform. This essentially normalizes the kills for different match sizes
+% data['percTeamKills'] = data.totalTeamKills / data.maxPossibleKills
+% data.percTeamKills.fillna(0,inplace=True)
+% data.percTeamKills.replace(np.inf, 0, inplace=True)
+
+% #Find the mean of killPlace for all players in the team. This essentially finds the overall performance of the whole team in general
+% data['meanTeamKillPlace'] = data.groupby('groupId')['killPlace'].mean()
+% data.meanTeamKillPlace.fillna(0,inplace=True)
+% data.meanTeamKillPlace.replace(np.inf, 0, inplace=True)
 
 \section{Experimentation Results and Discussions}
 \label{sec:discussion}
